@@ -10,7 +10,7 @@ const { Keyring } = require("@polkadot/api");
 
 module.exports = class MyKeyring extends Keyring {
   constructor() {
-    super({ type: "sr25519", ss58Format: 42 });
+    super({ type: "sr25519", ss58Format: 7 });
   }
   async getPublicKeyFromMnemonic(mnemonic) {
     const pair = this.createFromUri(mnemonic);

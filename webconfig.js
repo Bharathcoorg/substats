@@ -8,14 +8,14 @@
 "use strict";
 const path = require("path");
 module.exports = {
-  sitename: "CESS Brower",
+  sitename: "Edgeware Explorer",
   wsnode: {
-    nodeURL:  "wss://rpc.dotters.network/polkadot", // config the block chain node rpc websocket url
+    nodeURL:  "ws://localhost:9944", // config the block chain node rpc websocket url
     // nodeURL: "wss://rpc.dotters.network/polkadot",
     // nodeURL: "wss://polkadot-rpc.dwellir.com",
     // nodeURL: "wss://polkadot-rpc-tn.dwellir.com", 
     // nodeURL: "wss://polkadot.api.onfinality.io/public-ws", 
-    keyringOption: { type: "sr25519", ss58Format: 42 },
+    keyringOption: { type: "sr25519", ss58Format: 7 },
   },
   host: "substats.cess.cloud",//system bind domain
   port: {

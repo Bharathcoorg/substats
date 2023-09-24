@@ -138,10 +138,10 @@ function Header({ className }) {
         </div>
         <a
           className="nav-bottom-link"
-          href="https://substats.cess.cloud/"
+          href="https://edgeverse.space/"
           target="_blank"
         >
-          Powered by Substats
+          Powered By Edgeverse
         </a>
       </div>
     </div>

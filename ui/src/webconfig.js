@@ -1,4 +1,4 @@
 export default { 
-    name:"Polkadot",
-    tokenName:'DOT'
+    name:"Edgeware",
+    tokenName:'EDG'
  };

@@ -50,7 +50,7 @@ async function main() {
   if (tmp.length > 0) {
     currHeight = tmp[0].blockHeight + 1;
   }
-  currHeight = 4000000;
+  currHeight = 5000000;
   console.log("currHeight", currHeight);
   if (maxHeight < currHeight) {
     maxHeight = currHeight + 1;
